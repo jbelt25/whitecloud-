@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newaygo Bulk Water Company - Pre-Sale</title>
+    <style>
+        body { 
+            font-family: 'Arial', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f8f9fa; 
+            color: #333; 
+        }
+        .header { 
+            background-color: #0056b3; 
+            color: white; 
+            text-align: center; 
+            padding: 2.5rem 1rem; 
+        }
+        .header h1 { 
+            margin: 0; 
+            font-size: 2.5rem; 
+            letter-spacing: 1px;
+        }
+        .header h2 { 
+            margin: 10px 0; 
+            font-size: 1.25rem; 
+            font-weight: 400; 
+        }
+        .header p { 
+            font-size: 0.9rem; 
+            letter-spacing: 1.5px; 
+            margin-top: 15px;
+        }
+        .hero-section {
+            text-align: center;
+            background-color: #dee2e6;
+        }
+        .hero-image { 
+            width: 100%; 
+            max-width: 800px; 
+            height: auto; 
+            display: block; 
+            margin: 0 auto;
+        }
+        .container { 
+            max-width: 1000px; 
+            margin: 2rem auto; 
+            padding: 0 1rem; 
+        }
+        .grid-features { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+            gap: 1.5rem; 
+            text-align: center; 
+            margin: 2rem 0; 
+        }
+        .feature-card { 
+            background: white; 
+            padding: 1.5rem; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+            border-top: 4px solid #0056b3;
+        }
+        .feature-card img { 
+            max-width: 60px; 
+            margin-bottom: 1rem; 
+        }
+        .feature-card h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.1rem;
+        }
+        .feature-card p {
+            margin: 0;
+            color: #555;
+        }
+        .pricing-section {
+            margin: 3rem 0;
+        }
+        .pricing-section h2 {
+            text-align: center;
+            color: #0056b3;
+            text-transform: uppercase;
+        }
+        .pricing-table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            background: white; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+        }
+        .pricing-table th, .pricing-table td { 
+            padding: 1.25rem; 
+            text-align: center; 
+            border-bottom: 1px solid #ddd; 
+        }
+        .pricing-table th { 
+            background-color: #0056b3; 
+            color: white; 
+            text-transform: uppercase; 
+        }
+        .pricing-table tr:hover { 
+            background-color: #f1f1f1; 
+        }
+        .guarantee { 
+            background-color: #e9ecef; 
+            padding: 2rem; 
+            text-align: center; 
+            border-radius: 8px; 
+            border: 2px dashed #0056b3; 
+            margin-top: 2rem; 
+        }
+        .guarantee h2 {
+            margin-top: 0;
+            color: #d9534f;
+        }
+        .footer { 
+            text-align: center; 
+            padding: 2rem; 
+            font-size: 0.95rem; 
+            font-weight: bold;
+            color: #444; 
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>NEWAYGO BULK WATER COMPANY</h1>
+        <h2>SECURE HIGH-VOLUME ACCESS: WHITE CLOUD BULK FILL STATION</h2>
+        <p>EXCLUSIVE PRE-LAUNCH RATES | EGLE APPROVED | PROFESSIONAL GRADE</p>
+    </header>
+
+    <!-- Hero Image Area -->
+    <section class="hero-section">
+        <!-- Replace with your actual tanker truck image path -->
+        <img src="tanker-truck.jpg" alt="Tanker truck filling at 300+ GPM flow rate station" class="hero-image">
+    </section>
+
+    <main class="container">
+        
+        <!-- Value Propositions Grid -->
+        <section class="grid-features">
+            <div class="feature-card">
+                <h3>Stop Waiting. Start Hauling.</h3>
+                <p><strong>Flow Rate:</strong> 300+ GPM</p>
+                <p style="margin-top: 10px;"><strong>Priority "Fast-Pass" Access:</strong> Dedicated PIN for peak season.</p>
+            </div>
+            
+            <div class="feature-card">
+                <!-- Replace with your actual stopwatch icon path -->
+                <img src="stopwatch-icon.png" alt="Stopwatch Icon">
+                <h3>CUT FILL TIMES BY 60%</h3>
+                <p>8,000 gal in &lt; 25 mins.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>LOCK-IN DISCOUNTED RATE</h3>
+                <p>Rates as low as $6.67/1000 gal.</p>
+            </div>
+            
+            <div class="feature-card">
+                <!-- Replace with your actual shield icon path -->
+                <img src="shield-icon.png" alt="Shield Icon">
+                <h3>EGLE APPROVED & SCALABLE</h3>
+                <p>880 million gal. annual capacity</p>
+            </div>
+        </section>
+
+        <!-- Pricing Table -->
+        <section class="pricing-section">
+            <h2>Exclusive Pre-Launch Tiered Pricing</h2>
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Tier</th>
+                        <th>Buy-In</th>
+                        <th>Volume</th>
+                        <th>Rate per 1k Gal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Commercial</strong></td>
+                        <td>$2,500</td>
+                        <td>100K Gal.</td>
+                        <td>$25.00</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fleet</strong></td>
+                        <td>$10,000</td>
+                        <td>500K Gal.</td>
+                        <td>$20.00</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Anchor</strong></td>
+                        <td>$50,000</td>
+                        <td>3M Gal.</td>
+                        <td>$16.67</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Guarantee -->
+        <section class="guarantee">
+            <h2>RISK-FREE GUARANTEE</h2>
+            <p><strong>YOUR BUY-IN IS PROTECTED.</strong></p>
+            <p>FULL REFUND IF STATION IS NOT CERTIFIED AND OPERATIONAL BY April 1, 2027</p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Centrally Located for Fast Access Across Newaygo, Kent, Mecosta, Muskegon, and Lake Counties</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
